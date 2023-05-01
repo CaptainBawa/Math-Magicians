@@ -1,14 +1,13 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+
   <img src="LinkedIn Cover Main.jpg" alt="logo" width="100%"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
 
 </div>
-
 
 # 📗 Table of Contents
 
@@ -22,7 +21,6 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -31,68 +29,43 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 [Math Magicians] <a name="about-project"></a>
 
-# 📖 [your_project_name] <a name="about-project"></a>
-
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**[Math_Magicians]** is a single-page web application built using React. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The app has three main sections: a calculator, a numbers list, and a quote generator.The app is built using modern web development tools and techniques such as React, JavaScript, HTML5, and CSS3. It has a responsive design that works well on different screen sizes and devices. Overall, Math Magician is a fun and educational app that helps users improve their math skills while having fun.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://www.css3.com/">CSS</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://pages.github.com/">GitHub Pages</a></li>
   </ul>
 </details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[React_App]**
+- **[Use_Linters]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](coming soon)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -100,57 +73,36 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- [] git version 2.38.x
+- [] node.js version > 12.x
+- [] IDE
+- [] browser (chrome, firefox, edge, safari)
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:CaptainBawa/Math-Magicians.git
 ```
---->
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
 ```sh
   cd my-project
-  gem install
+  npm install/npm i
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
 ```sh
-  rails server
+  Live server
 ```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-  Live Server
 
 ### Deployment
 
