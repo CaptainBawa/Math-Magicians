@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Buttons = ({ value, className }) => (
-  <button type="button" className={className}>
+const Buttons = ({ className, value, handleClick }) => (
+  <button type="button" className={`btn ${className}`} onClick={() => handleClick(value)}>
     {value}
   </button>
 );
@@ -10,6 +10,7 @@ const Buttons = ({ value, className }) => (
 Buttons.propTypes = {
   value: PropTypes.string.isRequired,
   className: PropTypes.string.isRequired,
+  handleClick: PropTypes.func.isRequired,
 };
 
 export default Buttons;

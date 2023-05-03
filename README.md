@@ -5,7 +5,7 @@
   <img src="LinkedIn Cover Main.jpg" alt="logo" width="100%"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Math Magicians App</b></h3>
 
 </div>
 
@@ -56,6 +56,7 @@
 
 - **[React_App]**
 - **[Use_Linters]**
+- **[Perform_Math_Operations]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,9 +125,8 @@ This project is deployed at github pages you can clone it here.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Use_React_components]**
-- [ ] **[Use_React_props]**
-- [ ] **[Use_React_state]**
+- [ ] **[Add_inline_styles]**
+- [ ] **[Add_Quotes]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,7 +142,7 @@ Feel free to check the [issues page](https://github.com/CaptainBawa/Math-Magicia
 
 Dear Viewers!
 
-I'm excited to be working on this project and I would be grateful for your support! By supporting this project, you are not only helping me, but you are also contributing to something meaningful that can make a difference. Your support will give me the motivation and resources necessary to keep moving forward with this project and to ensure its success. So, whether it's through your kind words, your financial support, or simply by spreading the word, your support means everything to me. Thank you in advance for your support, and I can't wait to share with you the amazing things we will achieve together.
+I'm excited to be working on this project and I would be grateful for your support! By supporting this project, you are not only helping me, but you are also contributing to something meaningful that can make a difference. Your support will give me the motivation and resources necessary to keep moving forward with this project and to ensure its success. So, whether it's through your kind words, by giving a star if you like this project, your financial support, or simply by spreading the word, your support means everything to me. Thank you in advance for your support, and I can't wait to share with you the amazing things we will achieve together.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -1,43 +1,57 @@
+import React, { useState } from 'react';
 import Buttons from './buttonsComponents';
+import calculate from '../logic/calculate';
 
-const Calculator = () => (
-  <div className="content-container">
-    <input className="display-screen" type="text" value="0" readOnly />
-    <div className="btn-container">
-      <Buttons type="button" value="AC" />
-      <Buttons type="button" value="+/-" />
-      <Buttons type="button" value="%" />
-      <Buttons className="orange-btn" type="button" value="÷" />
+const Calculator = () => {
+  const [count, setCount] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
+
+  const handleClick = (value) => {
+    setCount(calculate(count, value));
+  };
+
+  return (
+    <div className="content-container">
+      <input className="display-screen" type="text" value={count.next || count.operation || count.total || '0'} readOnly />
+      <div className="btn-container">
+        <Buttons type="button" value="AC" handleClick={handleClick} />
+        <Buttons type="button" value="+/-" handleClick={handleClick} />
+        <Buttons type="button" value="%" handleClick={handleClick} />
+        <Buttons className="orange-btn" type="button" value="÷" handleClick={handleClick} />
+      </div>
+
+      <div className="btn-container">
+        <Buttons type="button" value="7" handleClick={handleClick} />
+        <Buttons type="button" value="8" handleClick={handleClick} />
+        <Buttons type="button" value="9" handleClick={handleClick} />
+        <Buttons className="orange-btn" type="button" value="x" handleClick={handleClick} />
+      </div>
+
+      <div className="btn-container">
+        <Buttons type="button" value="4" handleClick={handleClick} />
+        <Buttons type="button" value="5" handleClick={handleClick} />
+        <Buttons type="button" value="6" handleClick={handleClick} />
+        <Buttons className="orange-btn" type="button" value="-" handleClick={handleClick} />
+      </div>
+
+      <div className="btn-container">
+        <Buttons type="button" value="1" handleClick={handleClick} />
+        <Buttons type="button" value="2" handleClick={handleClick} />
+        <Buttons type="button" value="3" handleClick={handleClick} />
+        <Buttons className="orange-btn" type="button" value="+" handleClick={handleClick} />
+      </div>
+
+      <div className="btn-container">
+        <Buttons className="wide-btn" type="button" value="0" handleClick={handleClick} />
+        <Buttons type="button" value="." handleClick={handleClick} />
+        <Buttons className="orange-btn" type="button" value="=" handleClick={handleClick} />
+      </div>
+
     </div>
-
-    <div className="btn-container">
-      <Buttons type="button" value="7" />
-      <Buttons type="button" value="8" />
-      <Buttons type="button" value="9" />
-      <Buttons className="orange-btn" type="button" value="x" />
-    </div>
-
-    <div className="btn-container">
-      <Buttons type="button" value="4" />
-      <Buttons type="button" value="5" />
-      <Buttons type="button" value="6" />
-      <Buttons className="orange-btn" type="button" value="-" />
-    </div>
-
-    <div className="btn-container">
-      <Buttons type="button" value="1" />
-      <Buttons type="button" value="2" />
-      <Buttons type="button" value="3" />
-      <Buttons className="orange-btn" type="button" value="+" />
-    </div>
-
-    <div className="btn-container">
-      <Buttons className="wide-btn" type="button" value="0" />
-      <Buttons type="button" value="." />
-      <Buttons className="orange-btn" type="button" value="=" />
-    </div>
-
-  </div>
-);
+  );
+};
 
 export default Calculator;
