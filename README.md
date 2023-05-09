@@ -54,8 +54,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[React_App]**
-- **[Use_Linters]**
+- **[Single_Page_App]**
+- **[Displays_Random_Quotes]**
 - **[Perform_Math_Operations]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -125,8 +125,8 @@ This project is deployed at github pages you can clone it here.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add_inline_styles]**
-- [ ] **[Add_Quotes]**
+- [ ] **[Add_Images]**
+- [ ] **[Add_Button_To_Delete_A_Single_Number]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
