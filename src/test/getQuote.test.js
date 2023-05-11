@@ -36,4 +36,3 @@ describe('GetQuotes', () => {
     expect(screen.getByText('API Error')).toBeInTheDocument();
   });
 });
-
