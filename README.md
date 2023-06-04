@@ -29,7 +29,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Math Magicians] <a name="about-project"></a>
+# 📖 Math Magicians <a name="about-project"></a>
 
 **[Math_Magicians]** is a single-page web application built using React. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The app has three main sections: a calculator, a numbers list, and a quote generator.The app is built using modern web development tools and techniques such as React, JavaScript, HTML5, and CSS3. It has a responsive design that works well on different screen sizes and devices. Overall, Math Magician is a fun and educational app that helps users improve their math skills while having fun.
 
@@ -48,15 +48,15 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://pages.github.com/">GitHub Pages</a></li>
+    <li><a href="https://dashboard.render.com/">Render</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **[Single_Page_App]**
-- **[Displays_Random_Quotes]**
-- **[Perform_Math_Operations]**
+- **Single Page App**
+- **Displays Random Quotes**
+- **Perform Math Operations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,14 +102,14 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  Live server
+  npm start
 ```
 
 ### Deployment
 
 You can deploy this project using:
 
-This project is deployed at github pages you can clone it here.
+This project is deployed at render.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,14 +119,14 @@ This project is deployed at github pages you can clone it here.
 
 - GitHub: [@CaptainBawa](https://github.com/CaptainBawa)
 - Twitter: [@BawaCollins](https://twitter.com/BawaCollins)
-- LinkedIn: [captainbawa](https://www.linkedin.com/in/captainbawa/)
+- LinkedIn: [@captainbawa](https://www.linkedin.com/in/captainbawa/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add_Images]**
-- [ ] **[Add_Button_To_Delete_A_Single_Number]**
+- [ ] **Add Images**
+- [ ] **Add_Button To Delete A Single Number**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
