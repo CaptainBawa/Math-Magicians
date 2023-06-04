@@ -31,7 +31,7 @@
 
 # 📖 Math Magicians <a name="about-project"></a>
 
-**[Math_Magicians]** is a single-page web application built using React. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The app has three main sections: a calculator, a numbers list, and a quote generator.The app is built using modern web development tools and techniques such as React, JavaScript, HTML5, and CSS3. It has a responsive design that works well on different screen sizes and devices. Overall, Math Magician is a fun and educational app that helps users improve their math skills while having fun.
+**Math Magicians** is a single-page web application built using React. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The app has three main sections: a calculator, a numbers list, and a quote generator.The app is built using modern web development tools and techniques such as React, JavaScript, HTML5, and CSS3. It has a responsive design that works well on different screen sizes and devices. Overall, Math Magician is a fun and educational app that helps users improve their math skills while having fun.
 
 ## 🛠 Built With <a name="built-with"></a>
 
